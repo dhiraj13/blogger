@@ -2,8 +2,8 @@
 h1 {font-size: 2.4rem;margin-bottom: 30px;}
 .bg-blue {background-color:#007EDB;}
 .navbar-brand { font-family: Acme; }
-.navbar-light .navbar-nav .nav-link {color: brown;}
-.navbar-light .navbar-nav .active .nav-link {color: burlywood;}
+.navbar-light .navbar-nav .nav-link {color: rgb(107, 8, 8);}
+.navbar-light .navbar-nav .active .nav-link {color: rgb(107, 8, 8);}
 .banner img {width:100%;}
 .blog-box {text-align: center; margin-bottom: 20px;}
 .blog-box h3 { margin:20px 0; font-size:22px; color:#000;}
