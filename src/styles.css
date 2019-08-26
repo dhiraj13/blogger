@@ -6,8 +6,7 @@ h1 {font-size: 2.4rem;margin-bottom: 30px;}
 .navbar-light .navbar-nav .active .nav-link {color: rgb(107, 8, 8);}
 .banner img {width:100%;}
 .blog-box {text-align: center; margin-bottom: 20px;}
-.blog-box h3 { margin:20px 0; font-size:22px; color:#000;}
-.blog-box p { color:#666; }
+.blog-box h2 { margin:20px 0; font-size:22px; color:#000;}
 .blog-box span, .posted-on span { font-style: italic; color:#000; }
 .blog-box img { width:100%; }
 .mtb-40 { margin:40px 0; min-height:450px;}
