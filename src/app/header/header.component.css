@@ -11,6 +11,7 @@ nav ul li a:hover {
 nav.stroke ul li a {
   position: relative;
 }
+
 nav.stroke ul li a:after {
   position: absolute;
   bottom: 0;
@@ -23,13 +24,26 @@ nav.stroke ul li a:after {
   background: #aaa;
   height: 1px;
 }
+
 nav.stroke ul li a:hover:after {
   width: 100%;
 }
 
-
-input[type="email"]::placeholder {
-
-  /* Firefox, Chrome, Opera */
+/* input[type="email"]::placeholder {
   text-align: center;
+} */
+
+input.form-control {
+  height: 31px !important;
+}
+
+.no-border {
+  border: 0.03;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 600px) {
+  #form-email {
+    margin-bottom: 0.5rem;
+  }
 }
