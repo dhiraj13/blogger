@@ -12,7 +12,9 @@ export class BlogpostFeaturedComponent implements OnInit {
   blogs: Blogpost;
   error: {};
 
-  constructor(private blogpostService: BlogpostService) { }
+  constructor(
+    private blogpostService: BlogpostService
+  ) { }
 
   ngOnInit() {
     this.blogpostService.getFeaturedBlogs().subscribe(

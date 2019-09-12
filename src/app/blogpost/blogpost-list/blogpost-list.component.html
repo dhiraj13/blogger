@@ -6,8 +6,8 @@
         <div class="blog-box">
           <img src="{{blog.image}}" alt="blog1" />
           <h3>{{blog.title}}</h3>
-          <p>by <span>{{blog.author}}</span> on <span>{{blog.createdAt | date:'mediumDate'}}</span></p>
-          <p>{{blog.shortDesc}}</p>
+          <p>by <span>{{blog.author}}</span> on <span>{{blog.created_at | date:'mediumDate'}}</span></p>
+          <p>{{blog.short_desc}}</p>
           <a routerLink="['/blog', blog.id]" class="btn btn-danger">Read more...</a>
         </div>
       </div>

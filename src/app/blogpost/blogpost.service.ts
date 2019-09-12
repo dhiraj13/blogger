@@ -9,7 +9,7 @@ import { catchError } from 'rxjs/operators';
 })
 export class BlogpostService {
 
-  ServerUrl = 'http://localhost/dev/blogger/';
+  ServerUrl = 'http://127.0.0.1/dev/blogger/';
   errorData: {};
 
   constructor(private http: HttpClient) { }

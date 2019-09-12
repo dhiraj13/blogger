@@ -20,7 +20,6 @@ export class BlogpostListComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-
     this.titleService.setTitle(this.title);
 
     this.blogpostService.getBlogs().subscribe(
