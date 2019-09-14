@@ -13,7 +13,7 @@ export class LoginComponent implements OnInit {
   loginForm: FormGroup;
   submitted = false;
   returnUrl: string;
-  error: {};
+  error: {errorTitle: '', errorDesc: ''};
   loginError: string;
 
   constructor(
