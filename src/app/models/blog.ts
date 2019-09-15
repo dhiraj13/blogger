@@ -4,7 +4,7 @@ export class Blog {
   userId: number;
   description: string;
   image: string;
-  isFeatured: boolean;
-  isActive: boolean;
-  createdAt: Date;
+  is_featured: boolean;
+  is_active: boolean;
+  created_at: Date;
 }

@@ -1,8 +1,8 @@
 export class Blogpost {
   id: number;
   title: string;
-  shortDesc: string;
+  short_desc: string;
   author: string;
   image: string;
-  createdAt: Date;
+  created_at: Date;
 }

@@ -8,7 +8,7 @@ import { map, catchError } from 'rxjs/operators';
 })
 export class AuthService {
 
-  serverUrl = 'http://localhost/dev/blogger/';
+  serverUrl = 'http://127.0.0.1/dev/blogger/';
   errorData: {};
 
   constructor(private http: HttpClient) { }
